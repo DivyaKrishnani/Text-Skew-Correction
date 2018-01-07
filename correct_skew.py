@@ -48,6 +48,6 @@ k = cv2.waitKey(0) & 0xFF
 if k == 27:
     cv2.destroyAllWindows()
 elif k == ord('s'):
-    cv2.imwrite('images/dl4_.jpg', rotated)
+    cv2.imwrite('images/image.jpg', rotated)
     cv2.destroyAllWindows()
 
